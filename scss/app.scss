@@ -38,9 +38,9 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-a {
-    text-decoration: none;
-}
+// a {
+//     text-decoration: none;
+// }
 
 a i {
     color: rgba($khaki, 0.5);
@@ -56,17 +56,17 @@ a:hover img  {
 }
 
 html, body {
-    height: 100%;
     color: #222;
-    font-size: 1em;
-    line-height: 1.4;
     font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    height: 100%;
+    line-height: 1.4;
 }
 
 body {
-  background-image: url(../images/greenBack2.png);
-  background-size: cover;
-  background-attachment:fixed
+	background-image: url(../images/greenBack2.png);
+	background-size: cover;
+	background-attachment:fixed
 }
 
 header {
@@ -111,20 +111,23 @@ main {
     margin: 0 auto;
 }
 
-#bio {
-    padding: 1.2rem 1.5rem;
-    max-width: 900px;
-    margin: 0 auto 40px 0;
-}
-
-.borderopacity50 {
+.bio {
     background-color: $dark_blue;
-    border: 20px solid rgba(240, 230, 140, 0.5);
+    border: 20px solid rgba($khaki, 0.5);
     background-clip: padding-box;
     border-radius: 10px;
     color: $khaki;
     font-weight: 300;
     letter-spacing: 1px;
+}
+.bio p:last-of-type {
+	margin-bottom: 0;
+}
+
+#bioDev {
+    padding: 1.2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 40px 0;
 }
 
 .project {
@@ -139,7 +142,7 @@ main {
 }
 
 .projectText {
-    padding: 6px 24px;
+    padding: 12px 24px;
     max-width: 900px;
     margin: 0 auto 40px 0;
     background-color: $khaki;

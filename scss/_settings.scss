@@ -154,6 +154,7 @@ $body-bg: $olive;
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
 // $global-rounded: 1000px;
+$global-radius: 10px;
 
 // We use these to control inset shadow shiny edges and depressions.
 // $shiny-edge-size: 0 1px 0;
@@ -270,6 +271,8 @@ $header-font-color: $dark_purple;
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
 // $paragraph-text-rendering: optimizeLegibility;
+$paragraph-line-height: 1.4;
+$paragraph-margin-bottom: rem-calc(10);
 
 // We use these to style <code> tags
 // $code-color: $oil;
