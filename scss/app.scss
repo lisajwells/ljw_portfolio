@@ -38,3 +38,229 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+a {
+    text-decoration: none;
+}
+
+a i {
+    color: rgba($khaki, 0.5);
+}
+a:hover i {
+    color: rgba($khaki, 1);
+}
+a img {
+    opacity: .5;
+}
+a:hover img  {
+    opacity: 1;
+}
+
+html, body {
+    height: 100%;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-image: url(../images/greenBack2.png);
+  background-size: cover;
+  background-attachment:fixed
+}
+
+header {
+    background-color: $olive;
+    color: $khaki;
+    padding: 2em 14em 2em 2em;
+}
+
+header h2 {
+    color: $khaki;
+    font-size: 200%;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 120%;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contact {
+    position: absolute;
+    right: 2em;
+    top: 3em;
+}
+
+.icon:before {
+    font-size: 2em;
+    margin-right: .3em;
+}
+
+#galogo img {
+    width: 33px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 30px 60px 41px 60px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#bio {
+    padding: 1.2rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto 40px 0;
+}
+
+.borderopacity50 {
+    background-color: $dark_blue;
+    border: 20px solid rgba(240, 230, 140, 0.5);
+    background-clip: padding-box;
+    border-radius: 10px;
+    color: $khaki;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.project {
+    width: 48%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    opacity: .8;
+}
+.project:hover {
+    opacity: 1;
+}
+
+.projectText {
+    padding: 6px 24px;
+    max-width: 900px;
+    margin: 0 auto 40px 0;
+    background-color: $khaki;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -10px
+}
+
+.projectText strong {
+  font-weight: 600;
+  color: $olive;
+}
+
+.projectText h3 {
+  color: $dark_purple;
+}
+
+.textTop .projectText {
+    margin: 0 auto;
+    margin-bottom: -20px;
+    padding-bottom: 16px;
+} 
+
+.projectImage img {
+    width: 100%;
+}
+
+.textTop .projectImage {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project a {
+    font-weight: bold;
+    color: $dark_purple;
+
+}
+.project a:hover {
+    color: $brown;
+}
+
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
+}
+
+.site-footer {
+/*    bottom: 0;
+    width: 100%;
+*/}
+
+.site-footer h3 {
+  display: none;
+}
+
+.social-media-icons {
+  font-size: 200%;
+}
+
+@media screen and (max-width: 650px) { 
+    .project {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    main {
+        padding: 30px 30px 41px 30px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header {
+        padding: .8em 10em 1em 1em;
+    }
+    header h2 {
+        font-size: 150%;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+
+    header p {
+        font-size: 80%;
+        font-weight: 400;
+        margin: 0;
+    }
+    .contact {
+        position: absolute;
+        right: 1em;
+        top: 2em;
+    }
+    .icon:before {
+        font-size: 1.5em;
+        margin-right: .3em;
+    }
+    #galogo img {
+        width: 24px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    body {
+        font-size: .9em;
+    }
+    main {
+        padding: 30px 30px 41px 30px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header {
+        padding: .8em 10em 1em 1em;
+    }
+    header h2 {
+        font-size: 130%;
+        font-weight: 600;
+        letter-spacing: 1px;
+            margin: 0 0 4px 0;
+    line-height: 1.2em;
+    }
+}
