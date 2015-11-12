@@ -38,55 +38,57 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-// a {
-//     text-decoration: none;
-// }
 
-a i {
-    color: rgba($khaki, 0.5);
+p {
+	font-weight: 300;
 }
-a:hover i {
-    color: rgba($khaki, 1);
-}
-a img {
-    opacity: .5;
-}
-a:hover img  {
-    opacity: 1;
-}
-
 html, body {
     color: #222;
-    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     height: 100%;
     line-height: 1.4;
 }
 
 body {
-	background-image: url(../images/greenBack2.png);
+	background-image: url(../images/greenBackTrimd.jpg);
 	background-size: cover;
 	background-attachment:fixed
 }
 
 header {
+    font-family: $font-family-sans-serif;
     background-color: $olive;
     color: $khaki;
     padding: 2em 14em 2em 2em;
 }
 
-header h2 {
+header a i {
+    color: rgba($khaki, 0.5);
+}
+header a:hover i {
+    color: rgba($khaki, 1);
+}
+header a img {
+    opacity: .5;
+}
+header a:hover img  {
+    opacity: 1;
+}
+
+header h2, h3 {
     color: $khaki;
-    font-size: 200%;
-    font-weight: 600;
     margin: 0;
     letter-spacing: 1px;
 }
 
-header p {
+header h2 {
+    font-size: 200%;
+    font-weight: 600;
+}
+
+header h3 {
     font-size: 120%;
     font-weight: 400;
-    margin: 0;
 }
 
 .contact {
@@ -119,15 +121,13 @@ main {
     color: $khaki;
     font-weight: 300;
     letter-spacing: 1px;
-}
-.bio p:last-of-type {
-	margin-bottom: 0;
-}
-
-#bioDev {
     padding: 1.2rem 1.5rem;
     max-width: 900px;
-    margin: 0 auto 40px 0;
+    margin: 40px auto 40px 0;
+
+	p:last-of-type {
+	margin-bottom: 0;
+	}
 }
 
 .project {
@@ -135,10 +135,6 @@ main {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    opacity: .8;
-}
-.project:hover {
-    opacity: 1;
 }
 
 .projectText {
@@ -151,20 +147,24 @@ main {
     margin-top: -10px
 }
 
-.projectText strong {
-  font-weight: 600;
-  color: $olive;
-}
-
-.projectText h3 {
-  color: $dark_purple;
+.projectText a {
+    font-family: $font-family-sans-serif;
 }
 
 .textTop .projectText {
     margin: 0 auto;
-    margin-bottom: -20px;
-    padding-bottom: 16px;
-} 
+	margin-bottom: -17px;
+	padding-bottom: 22px;
+}
+
+.bio strong {
+  font-weight: 400;
+}
+
+.projectText strong {
+  font-weight: 400;
+  color: $olive;
+}
 
 .projectImage img {
     width: 100%;
@@ -178,11 +178,15 @@ main {
 
 .project a {
     font-weight: bold;
-    color: $dark_purple;
+    color: saturate(lighten($dark_purple, 12), 8);
 
 }
 .project a:hover {
     color: $brown;
+}
+
+#imgMag {
+	text-align: center;
 }
 
 .floatLeft {
@@ -190,19 +194,6 @@ main {
 }
 .floatRight {
     float: right;
-}
-
-.site-footer {
-/*    bottom: 0;
-    width: 100%;
-*/}
-
-.site-footer h3 {
-  display: none;
-}
-
-.social-media-icons {
-  font-size: 200%;
 }
 
 @media screen and (max-width: 650px) { 

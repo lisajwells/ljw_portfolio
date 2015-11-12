@@ -85,17 +85,19 @@ $include-html-global-classes: $include-html-classes;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Open+Sans:600,700,400);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,300);
 // We use these to define default font stacks
 // $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-$font-family-sans-serif: "Raleway", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: "Roboto Slab", Georgia, Cambria, Times, serif;
 
 // We use these to define default font weights
 // $font-weight-normal: normal;
 // $font-weight-bold: bold;
-$font-weight-normal: 400;
+$font-weight-normal: 300;
 $font-weight-bold: 700;
 
 // $white       : #FFFFFF;
@@ -120,8 +122,8 @@ $font-weight-bold: 700;
 $olive: 		#353C1D;
 $khaki: 		#F0E68C;
 $dark_blue: 	#35464F;
-$dark_purple: 	#363134;
-$brown: 		#6B4E1C;
+$dark_purple: 	#353033;
+$brown: 		#4b3e23;
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
@@ -141,6 +143,8 @@ $secondary-color: $khaki;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 $body-bg: $olive;
+$body-font-family: $font-family-serif;
+$body-font-weight: 300;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
@@ -231,8 +235,9 @@ $global-radius: 10px;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
+$header-font-family: $font-family-sans-serif;
 $header-font-weight: $font-weight-bold;
-$header-font-color: $dark_purple;
+$header-font-color: lighten($dark_purple, 6);
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
