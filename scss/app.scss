@@ -88,7 +88,7 @@ header {
     font-family: $font-family-sans-serif;
     background-color: $olive;
     color: $khaki;
-    padding: 2em 14em 2em 2em;
+    padding: 2em 0 2em 0;
 
 	a i {
 	    color: rgba($khaki, 0.5);
@@ -109,21 +109,36 @@ header {
 	    letter-spacing: 1px;
 	}
 
+    // header h2 {
+    //     font-size: 130%;
+    //     font-weight: 600;
+    //     letter-spacing: 1px;
+    //     margin: 0 0 4px 0;
+    //     line-height: 1.2em;
+    // }
 	h2 {
-	    font-size: 200%;
+	    font-size: 130%;
 	    font-weight: 600;
+        letter-spacing: 1px;
+        margin: 0 0 4px 0;
+        line-height: 1.2em;
 	}
 
 	h3 {
-	    font-size: 120%;
+	    font-size: 100%;
 	    font-weight: 400;
 	}
 }
 
-.contact {
-    position: absolute;
-    right: 2em;
-    top: 3em;
+// .contact {
+//     position: absolute;
+//     right: 2em;
+//     top: 3em;
+//     padding: 0;
+// }
+
+.siteID {
+    padding: 0;
 }
 
 .icon:before {
@@ -236,33 +251,33 @@ main {
         max-width: 900px;
         margin: 0 auto;
     }
-    header {
-        padding: .8em 10em 1em 1em;
-    }
-    header h2 {
-        font-size: 150%;
-        font-weight: 600;
-        margin: 0;
-        letter-spacing: 1px;
-    }
+    // header {
+    //     padding: .8em 10em 1em 1em;
+    // }
+    // header h2 {
+    //     font-size: 150%;
+    //     font-weight: 600;
+    //     margin: 0;
+    //     letter-spacing: 1px;
+    // }
 
-    header p {
-        font-size: 80%;
-        font-weight: 400;
-        margin: 0;
-    }
-    .contact {
-        position: absolute;
-        right: 1em;
-        top: 2em;
-    }
+    // header p {
+    //     font-size: 80%;
+    //     font-weight: 400;
+    //     margin: 0;
+    // }
+    // .contact {
+    //     position: absolute;
+    //     right: 1em;
+    //     top: 2em;
+    // }
     .icon:before {
         font-size: 1.5em;
         margin-right: .3em;
     }
     #galogo img {
-        width: 24px;
-        margin-bottom: 10px;
+        width: 22px;
+        margin-bottom: 7px;
     }
 }
 
@@ -275,14 +290,14 @@ main {
         max-width: 900px;
         margin: 0 auto;
     }
-    header {
-        padding: .8em 10em 1em 1em;
-    }
-    header h2 {
-        font-size: 130%;
-        font-weight: 600;
-        letter-spacing: 1px;
-        margin: 0 0 4px 0;
-        line-height: 1.2em;
-    }
+    // header {
+    //     padding: .8em 10em 1em 1em;
+    // }
+    // header h2 {
+    //     font-size: 130%;
+    //     font-weight: 600;
+    //     letter-spacing: 1px;
+    //     margin: 0 0 4px 0;
+    //     line-height: 1.2em;
+    // }
 }
