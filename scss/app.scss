@@ -62,11 +62,11 @@ html, body {
 }
 
 body {
-    background-image: url(../images/illoPattern8_16.png);
+    background-image: url(../images/illoPattern8_8.png);
     background-repeat: repeat repeat;
     background-repeat: round repeat;
     background-attachment: fixed;
-    background-size: 125px 100%;
+    background-size: 125px auto;
 }
 
 ////// HEADER //////
@@ -159,6 +159,10 @@ main {
 	}
 }
 
+#bioMag {
+    margin-top: 0;
+}
+
 ////// PROJECT BOXES //////
 
 .project {
@@ -216,7 +220,7 @@ main {
 	text-align: center;
 }
 
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 768px) { 
     .project {
         width: 100%;
     }
