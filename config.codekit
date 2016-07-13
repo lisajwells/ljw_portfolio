@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19102",
+"creatorBuild": "19127",
 "files": {
 	"\/adaptive-images.1.5.2\/adaptive-images.php": {
 		"fileType": 8192,
@@ -3711,6 +3711,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/carlaLobmierHomePage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192732,
+		"inputAbbreviatedPath": "\/images\/carlaLobmierHomePage.jpg",
+		"outputAbbreviatedPath": "\/images\/carlaLobmierHomePage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/compositeMags.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3718,6 +3729,17 @@
 		"initialSize": 167656,
 		"inputAbbreviatedPath": "\/images\/compositeMags.png",
 		"outputAbbreviatedPath": "\/images\/compositeMags.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/formandfunction.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133751,
+		"inputAbbreviatedPath": "\/images\/formandfunction.jpg",
+		"outputAbbreviatedPath": "\/images\/formandfunction.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3788,6 +3810,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/LisaJayneHomePage022216_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130676,
+		"inputAbbreviatedPath": "\/images\/LisaJayneHomePage022216_2.jpg",
+		"outputAbbreviatedPath": "\/images\/LisaJayneHomePage022216_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/lustre.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3806,6 +3839,50 @@
 		"initialSize": 26045,
 		"inputAbbreviatedPath": "\/images\/rehill.jpg",
 		"outputAbbreviatedPath": "\/images\/rehill.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Screen-Shot-casabella.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107734,
+		"inputAbbreviatedPath": "\/images\/Screen-Shot-casabella.jpg",
+		"outputAbbreviatedPath": "\/images\/Screen-Shot-casabella.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/stanhope.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131770,
+		"inputAbbreviatedPath": "\/images\/stanhope.jpg",
+		"outputAbbreviatedPath": "\/images\/stanhope.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/carlaLobmierHomePage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13674e+06,
+		"inputAbbreviatedPath": "\/images_not_in_use\/carlaLobmierHomePage.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/carlaLobmierHomePage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/formandfunction.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27811e+06,
+		"inputAbbreviatedPath": "\/images_not_in_use\/formandfunction.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/formandfunction.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3883,6 +3960,28 @@
 		"initialSize": 187020,
 		"inputAbbreviatedPath": "\/images_not_in_use\/kousourosHomePageTwoToOne.jpg",
 		"outputAbbreviatedPath": "\/images_not_in_use\/kousourosHomePageTwoToOne.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/LisaJayneHomePage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 498305,
+		"inputAbbreviatedPath": "\/images_not_in_use\/LisaJayneHomePage.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/LisaJayneHomePage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/lustre.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 298106,
+		"inputAbbreviatedPath": "\/images_not_in_use\/lustre.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/lustre.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4107,13 +4206,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images_not_in_use\/Screen Shot 2015-11-23 at 6.43.03 AM.png": {
+	"\/images_not_in_use\/Screen Shot  annierehill.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 417497,
-		"inputAbbreviatedPath": "\/images_not_in_use\/Screen Shot 2015-11-23 at 6.43.03 AM.png",
-		"outputAbbreviatedPath": "\/images_not_in_use\/Screen Shot 2015-11-23 at 6.43.03 AM.png",
+		"inputAbbreviatedPath": "\/images_not_in_use\/Screen Shot  annierehill.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/Screen Shot  annierehill.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/Screen Shot casabella.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05989e+06,
+		"inputAbbreviatedPath": "\/images_not_in_use\/Screen Shot casabella.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/Screen Shot casabella.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images_not_in_use\/Screen Shot stanhope.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27792e+06,
+		"inputAbbreviatedPath": "\/images_not_in_use\/Screen Shot stanhope.png",
+		"outputAbbreviatedPath": "\/images_not_in_use\/Screen Shot stanhope.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
